@@ -7,7 +7,7 @@
 #define AUTOMOWER_HAL_AM_VIVE_POS_H_
 
 #include <ros/ros.h>
-#include <boost/shared_ptr.hpp>
+#include <memory>
 #include <nav_msgs/Odometry.h>
 #include <deque>
 #include <mutex>

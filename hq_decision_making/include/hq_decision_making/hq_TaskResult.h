@@ -27,7 +27,7 @@
 #include <vector>
 #include <boost/thread/mutex.hpp>
 #include <boost/thread/condition.hpp>
-#include <boost/shared_ptr.hpp>
+#include <memory>
 
 namespace decision_making{
 

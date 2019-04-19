@@ -9,7 +9,7 @@
 #define AUTOMOWER_SAFE_H
 
 #include <ros/ros.h>
-#include <boost/shared_ptr.hpp>
+#include <memory>
 #include <geometry_msgs/PoseStamped.h>
 #include <geometry_msgs/Twist.h>
 #include <geometry_msgs/Point.h>

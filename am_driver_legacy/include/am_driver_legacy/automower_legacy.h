@@ -8,7 +8,7 @@
 #define AUTOMOWER_LEGACY_H
 
 #include <ros/ros.h>
-#include <boost/shared_ptr.hpp>
+#include <memory>
 #include <geometry_msgs/PoseStamped.h>
 #include <geometry_msgs/Twist.h>
 #include <nav_msgs/Odometry.h>
